@@ -8,7 +8,7 @@ An expert system is a form of AI software popular in the 1980's - in fact, it wa
 This expert system currently recommends teen and adult fiction using the Java based rule engine Jess and the CLIPS programming language. It has rules for asking questions and facts for all possible books that the engine can recommend. Jess doesn't sequentially go through code, but instead executes a rule whenever the left hand side of the rule is satisfied (basically like an if statement). It is unpredictable when a rule will be executed and at the same time possible for a rule to be executed multiple times. This particular system questions the user using the question rules until the recommend rule is fired. The recommend rule is fired when there is only one book left in the library. Whenever a question is answered books are retracted from the library until there is only one book in the library.
 
 # instructions
-1. Download Jess from https://www.jessrules.com/jess/download.shtml. This should give you a 30 day trial to the software. I am currently working on finding a workaround or different language which doesn't involve downloading a free trial of a software.
+1. Download Jess from https://www.jessrules.com/jess/download.shtml. This should give you a 30 day trial to the software. I am currently waiting for Jess to be open sourced which should happen sometime in 2019 hopefully.
 2. Save book_recs.clp in the examples/jess folder.
 3. Run Jess using jess.exe in bin. Command would be bin/jess.
 4. Run (batch "examples/jess/book_recs.clp") in Jess.
